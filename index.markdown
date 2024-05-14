@@ -6,11 +6,10 @@ layout: home
 ---
 
 <br>
-<p style="margin: 0 auto; width: 70%;"><span style="font-size: 24px;">Welcome to Widya Tantiya Yutika's homepage! </span> </p>
+<p style="text-align: center;"><span style="font-size: 24px;">Welcome to Widya Tantiya Yutika's homepage! </span> </p>
 <br>
-
-<p style="margin: 0 auto; width: 88%;">I am an aspiring data analyst with a passion for extracting insights from complex datasets. </p>
-<p style="margin: 0 auto; width: 75%;">Let's explore my journey into the world of data analysis and its applications.</p>
+<p style="text-align: center;">I am an aspiring data analyst with a passion for extracting insights from complex datasets.
+Let's explore my journey into the world of data analysis and its applications.</p>
 <br>
 
 --------------------------------------------------------------------------------------------------------------------
