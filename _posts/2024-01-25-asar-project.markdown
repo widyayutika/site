@@ -31,35 +31,42 @@ The dataset utilized for this analysis is sourced from the Los Angeles Police De
 ## Descriptive Statistics
 Utilizing R Shiny interactive platform, we delve into the dataset to explore deeper into the data and uncover interesting patterns (i.e. Crime Occurrence, Victim Demographic, and Geospatial Mapping)
 
-![Widya](../figure/Photo_Widya_Tantiya_Yutika.jpg)
-<img src="../figure/Photo_Widya_Tantiya_Yutika.jpg" alt="Testing" width="400">
-
 ### Crime Occurrence
-![Crime Occurrence](../figure/ASAR_Crime_Occurrence.png)
-<img src="figure/Photo_Widya_Tantiya_Yutika.jpg" alt="Testing">
+![Crime Occurrence](./figure/ASAR_Crime_Occurrence.png)
+
+
+<img src="./figure/ASAR_Crime_Occurrence.png" alt="Image Alt Text" width="400">
+
 From the heatmap above, it was revealed that noon, especially on Mondays, Wednesdays, and Fridays, sees peak crime incidents. Fridays stand out as the most common day for crimes. Crime rates slow down after midnight. Crime types show varied peak periods; for instance, theft is common during the day, burglary at night, and assaults occur throughout the day. These insights aid in deploying targeted crime prevention strategies and optimizing police resources based on peak times and specific crime types.
 
 ### Victim Demographic Distribution
 Understanding the victim demographics (age, gender, and race) can help identify vulnerable communities that may require increased police protection. 
 
 #### Age Group
-![Victim Age Group](figure/ASAR_Victim_Age_Group_Distribution.png)
-![LA Population Age Group](figure/ASAR_LA_Population_Age_Group.png){:width="40%"}
+![Victim Age Group](./figure/ASAR_Victim_Age_Group_Distribution.png)
+
+![LA Population Age Group](./figure/ASAR_LA_Population_Age_Group.png)
+
 Most victims of crime in Los Angeles fall within the 20-29 and 30-39 age groups, this result is not surprising as it matches the LA census data.
 
 #### Gender
-![Victim Gender](figure/ASAR_Victim_Gender.png){:width="40%"}
-![LA Population Gender](figure/ASAR_LA_Population_Gender.png){:width="40%"}
+![Victim Gender](./figure/ASAR_Victim_Gender.png)
+
+![LA Population Gender](./figure/ASAR_LA_Population_Gender.png
+
 There were more crimes committed against male than female or undisclosed gender. 
 NOTES: Victimless crimes are excluded from the analysis.
 
 #### Race/Descent
-![Victim Descent](figure/ASAR_Victim_Descent.png){:width="40%"}
-![LA Population Descent](figure/ASAR_LA_Population_Descent.png){:width="40%"}
+![Victim Descent](./figure/ASAR_Victim_Descent.png)
+
+![LA Population Descent](./figure/ASAR_LA_Population_Descent.png)
+
 Crimes against Hispanics/Latinos/Mexicans were the highest, and this is in line with the population of LA, with Hispanics being largest ethnic group (48.2%) in the city. Whereas crimes against Vietnamese and Black people was the second and third highest respectively, even though each group made up less than 12% (Vietnamese is a part of Asian) and 8% of total population in LA. This could be evidence of a community being more vulnerable to crime and warranting increased attention for police protection by the LAPD.
 
 ### Geospatial Mapping
-![Geospatial Mapping](figure/ASAR_Geospatial_Mapping.png){:width="40%"}
+![Geospatial Mapping](./figure/ASAR_Geospatial_Mapping.png)
+
 This serves as a tool to identify crime hot spots within the city where the users especially LAPD, can use zoom into different areas, filter by date (month, year) and also select to focus on certain crime types (eg. burglary, rape etc.).
 
 
@@ -72,7 +79,8 @@ In this section, we aim to determine whether the daily crime rate in 2020 is sig
 
 Null hypothesis (H0): There is no significant difference in daily crime rates between 2020 and 2021.
 Alternative hypothesis (H1): There is a significant difference in daily crime rates between 2020 and 2021.
-![Two Samples Z Test](figure/ASAR_Two_Samples_Z_Test.png){:width="40%"}
+
+![Two Samples Z Test](./figure/ASAR_Two_Samples_Z_Test.png)
 
 Based on the test results, the p-value was higher than the significance level of 5%, indicating insufficient evidence to reject the null hypothesis. Therefore, we conclude that there is no significant difference in daily crime rates between 2020 and 2021.
 
@@ -83,8 +91,9 @@ Following the hypothesis testing, we also conducted confidence interval analysis
 
 At a 95% confidence level, the confidence interval for daily average crime rates in 2020 ranged from 516 to 556, while in 2021, it increased to 542 to 568.By knowing this range, the LAPD can better predict daily crime rates and allocate resources accordingly, ensuring they have sufficient personnel and strategies in place to address the expected volume of incidents.
 
-Our Shiny App design methodology allows users to update the reactive inputs (i.e. lower and upper bounds of confidence level and sample size parameters as shown below.
-![Confidence Interval](figure/ASAR_Confidence_Interval.png){:width="40%"}
+Our Shiny App design methodology allows users to update the reactive inputs (i.e. lower and upper bounds of confidence level and sample size parameters) as shown below.
+
+![Confidence Interval](./figure/ASAR_Confidence_Interval.png)
 
 ### Monthly Crime Rate among Different Victim Gender
 We conducted an ANOVA test to compare the average monthly crime rates across different genders: male (M), female (F), and undisclosed (X). Using ten random samples and a significance level of 5%, the hypotheses were:
@@ -92,11 +101,12 @@ We conducted an ANOVA test to compare the average monthly crime rates across dif
 Null hypothesis (H0): The averages of monthly crime rates across different genders are equal.
 Alternative hypothesis (H1): The averages of monthly crime rates across different genders are not equal.
 
-![ANOVA_Tukey](figure/ASAR_ANOVA_Tukey_Test.png){:width="40%"}
+![ANOVA_Tukey](./figure/ASAR_ANOVA_Tukey_Test.png)
 
 The p-value was less than 0.05, leading us to reject the null hypothesis and conclude that there is a significant difference in average monthly crime rates among the genders. Tukey’s test revealed that males have significantly higher crime rates compared to females, with an average difference of 2229.5. Similar analyses showed that males have higher crime rates than undisclosed, and females also differ significantly from undisclosed. Overall, monthly crime rates are highest for males, followed by females, and lastly, undisclosed.
 
-![ANOVA_Shiny](figure/ASAR_ANOVA_Shiny.png){:width="40%"}
+![ANOVA_Shiny](./figure/ASAR_ANOVA_Shiny.png)
+
 Our Shiny app empowers users to filter data and conduct ANOVA tests on monthly crime rates across various demographic variables, including Gender, Crime Code, Race, and Area Name. Users can adjust sample sizes and observe results in real time, facilitating detailed analyses and informed decision-making for crime prevention strategies in Los Angeles.
 
 
