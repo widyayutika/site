@@ -79,9 +79,7 @@ Market Basket Analysis (MBA) is a statistical technique utilized by retailers to
 
 Association rules were then generated based on these itemsets, utilizing the lift metric to measure association strength. Filtering based on support and lift thresholds yielded actionable rules. Visualized through a heatmap, confidence levels revealed strong associations between items for different customer segments, such as a 0.71 confidence level for low spenders, indicating a 71% chance of purchasing consequent items given antecedent items. Similarly, for the Promising segment, a confidence of 0.53 meant that given a transaction containing the antecedent items, there is a 53% chance that the same customer will also buy the consequent items. Conversely for the High Spenders and Champions, there was a confidence of 0.34 and 0.28 instead, suggesting that High Spenders or Champions usually had more diverse shopping habits.
  
-![DSB_AR_Low_Spender]({{ site.baseurl }}/figure/DSB_AR_Low_Spender.jpg)
-
-![DSB_AR_Champion]({{ site.baseurl }}/figure/DSB_AR_Champion.jpg)
+![DSB_AR_Low_Spender]({{ site.baseurl }}/figure/DSB_AR_Low_Spender.jpg)     ![DSB_AR_Champion]({{ site.baseurl }}/figure/DSB_AR_Champion.jpg)
 
 ### Recommendation System
 Expanding upon the RFM and Market Basket Analysis groundwork, we endeavored to develop a recommendation system tailored to customers with prior transactions, segmented accordingly. To achieve this, we devised two distinct functions: one for initial item recommendations and another for subsequent item suggestions.
@@ -92,8 +90,8 @@ Similarly, the second_item() function proposes subsequent items based on a custo
 
 Additionally, we introduced a recommender function aimed at enhancing the customer experience. Upon inputting their customer ID, the method determines the user's customer group based on their transaction history. If the user lacks prior purchases, the program notifies them that no recommendations are available. However, for returning customers, the system utilizes market basket analysis to propose items for their cart. By generating potential item combinations and aligning with the customer group's purchasing tendencies, we optimize the cart's contents while introducing additional items tailored to their preferences.
 
-Please refer to the comprehensive analysis provided in the Jupyter notebook available on our GitHub repository. You can access the detailed findings and methodologies by following this 
-<p><a href="https://raw.githubusercontent.com/widyayutika/Recommendation-System-for-Retail-Product/main/Project_Group8_final.ipynb">Project Analysis - Jupyter Notebook</a></p>.
+Please refer to the comprehensive analysis provided in the Jupyter notebook available on our GitHub repository. You can access the detailed findings and methodologies with below link. 
+<p><a href="https://raw.githubusercontent.com/widyayutika/Recommendation-System-for-Retail-Product/main/Project_Group8_final.ipynb">Project Analysis - Jupyter Notebook</a></p>
 
 ## Limitation and Data Governance
 Bias must be addressed to ensure the accuracy and fairness of recommendations, as content, algorithmic, and user biases can impact user trust and engagement, potentially reducing revenue.
