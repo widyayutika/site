@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# title: WIDYA YUTIKA
-Feel free to contact me for any question!
+title: WIDYA YUTIKA
 email: widyayutika@gmail.com
 #description:
+#  Feel free to contact me for any question at widya.yutika@gmail.com
 github_username:  widyayutika
 linkedin_username: widyayutika
 
