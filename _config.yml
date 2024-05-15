@@ -19,18 +19,16 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Widya Yutika
-author:
-  name: Widya Yutika
-  email: widyayutika@gmail.com
-#description:
-#  Feel free to contact me for any question.
+author : Widya Yutika
+email: widyayutika@gmail.com
 github_username:  widyayutika
 linkedin_username: widyayutika
 
+description: Get in Touch
 # Build settings
 theme: minima
-#plugins:
-# - jekyll-feed
+plugins:
+ - jekyll-feed
 
 header_pages:
   - index.markdown
