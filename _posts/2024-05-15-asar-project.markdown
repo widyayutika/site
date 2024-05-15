@@ -4,6 +4,18 @@ title:  "Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied 
 date:   2024-05-15 10:30:00 +0800
 categories: jekyll update
 ---
+
+## Overview
+This page is dedicated to our Applied Statistics Analysis with R project, where our team of 5 members delve into the intricate patterns and trends surrounding crime rates in Los Angeles in 2021. In this data exploration, we employ statistical methodologies to dissect the dynamics of criminal activities, aiming to provide valuable insights into the challenges faced by the city and potential avenues for improvement.
+
+## Objective
+
+Our objective is to use applied statistics to comprehensively understand crime rates in Los Angeles in 2021. By scrutinizing data from various sources, we aim to unravel the underlying factors contributing to the recent surge in crimes as reported by Mayor Eric Gargetti and Police Chief Michael Moore in January 2022.
+
+## Significance
+
+Crime extends beyond statistics, representing  a multifaceted societal challenge with profound implications for public safety and well-being. Through this portfolio, we aim to highlight the significance of applying statistical tools to comprehend crime rates. By doing so, we can identify patterns, correlations, and potential causative factors, ultimately contributing to informed decision-making for crime prevention strategies.
+
 ## Data Source and Collection
 
 The dataset utilized for this analysis is sourced from the Los Angeles Police Department, accessible through the Los Angeles' Open Data website. It encompasses incidents of crime in Los Angeles, meticulously transcribed from original crime reports spanning the years 2020-2021. 
