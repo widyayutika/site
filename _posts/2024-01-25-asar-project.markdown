@@ -37,6 +37,12 @@ Utilizing R Shiny interactive platform, we delve into the dataset to explore dee
 
 <img src="./figure/ASAR_Crime_Occurrence.png" alt="Image Alt Text" width="400">
 
+
+![Testing](figure/ASAR_Crime_Occurrence.png)
+
+
+<img src="figure/ASAR_Crime_Occurrence.png" alt="Testing" width="400">
+
 From the heatmap above, it was revealed that noon, especially on Mondays, Wednesdays, and Fridays, sees peak crime incidents. Fridays stand out as the most common day for crimes. Crime rates slow down after midnight. Crime types show varied peak periods; for instance, theft is common during the day, burglary at night, and assaults occur throughout the day. These insights aid in deploying targeted crime prevention strategies and optimizing police resources based on peak times and specific crime types.
 
 ### Victim Demographic Distribution
