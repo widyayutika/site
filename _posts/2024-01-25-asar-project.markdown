@@ -31,17 +31,16 @@ The dataset utilized for this analysis is sourced from the Los Angeles Police De
 ## Descriptive Statistics
 Utilizing R Shiny interactive platform, we delve into the dataset to explore deeper into the data and uncover interesting patterns (i.e. Crime Occurrence, Victim Demographic, and Geospatial Mapping)
 
-![Widya](../figure/Photo_Widya_Tantiya_Yutika.jpg){:width="40%"}
-
+![Widya](../figure/Photo_Widya_Tantiya_Yutika.jpg)
 ### Crime Occurrence
-![Crime Occurrence](../figure/ASAR_Crime_Occurrence.png){:width="40%"}
+![Crime Occurrence](../figure/ASAR_Crime_Occurrence.png)
 From the heatmap above, it was revealed that noon, especially on Mondays, Wednesdays, and Fridays, sees peak crime incidents. Fridays stand out as the most common day for crimes. Crime rates slow down after midnight. Crime types show varied peak periods; for instance, theft is common during the day, burglary at night, and assaults occur throughout the day. These insights aid in deploying targeted crime prevention strategies and optimizing police resources based on peak times and specific crime types.
 
 ### Victim Demographic Distribution
 Understanding the victim demographics (age, gender, and race) can help identify vulnerable communities that may require increased police protection. 
 
 #### Age Group
-![Victim Age Group](figure/ASAR_Victim_Age_Group_Distribution.png){:width="40%"}
+![Victim Age Group](figure/ASAR_Victim_Age_Group_Distribution.png)
 ![LA Population Age Group](figure/ASAR_LA_Population_Age_Group.png){:width="40%"}
 Most victims of crime in Los Angeles fall within the 20-29 and 30-39 age groups, this result is not surprising as it matches the LA census data.
 
