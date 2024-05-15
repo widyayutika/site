@@ -1,27 +1,22 @@
 ---
 layout: post
-title:  "Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied Statistics Analysis with R"
-date:   2024-05-15 10:30:00 +0800
+title:  "Recommendation System for Retail Product - Data Science for Business"
+date:   2024-05-15 11:30:00 +0800
 categories: jekyll update
 ---
 
 ## Overview
 
-This page is dedicated to our Applied Statistics Analysis with R project, where our team of 5 members delve into the intricate patterns and trends surrounding crime rates in Los Angeles in 2021. In this data exploration,  we employ statistical methodologies to dissect the dynamics of criminal activities, aiming to provide valuable insights into the challenges faced by the city and potential avenues for improvement.
+
 
 ## Objective
 
-Our primary objective is to utilize applied statistics to understand the nuances of crime rates in Los Angeles. By scrutinizing data from various sources, we aim to unravel the underlying factors contributing to the recent surge in crime, particularly in homicides and shootings, as reported by Mayor Eric Gargetti and Police Chief Michael Moore in January 2022.
-
-## Significance:
-
-Crime is not just a statistic; it's a multifaceted issue with profound societal implications. Through this portfolio, we aim to highlight the significance of applying statistical tools to comprehend crime rates. By doing so, we can identify patterns, correlations, and potential causative factors, ultimately contributing to informed decision-making for crime prevention strategies.
 
 
-Join us on this statistical journey as we navigate through the numbers and unveil meaningful insights into the complex world of crime rates in Los Angeles.
+## Significance
 
 
-## Data Source and Collection:
+## Data Source and Collection
 
 The dataset utilized for this analysis is sourced from the Los Angeles Police Department, accessible through the Los Angeles' Open Data website. It encompasses incidents of crime in Los Angeles, meticulously transcribed from original crime reports spanning the years 2020-2021. 
 
@@ -29,12 +24,11 @@ The dataset utilized for this analysis is sourced from the Los Angeles Police De
 
 
 ## Descriptive Statistics
+
 Utilizing R Shiny interactive platform, we delve into the dataset to explore deeper into the data and uncover interesting patterns (i.e. Crime Occurrence, Victim Demographic, and Geospatial Mapping)
 
 ### Crime Occurrence
 ![Crime Occurrence]({{ site.baseurl }}/figure/ASAR_Crime_Occurrence.png)
-
-
 
 From the heatmap above, it was revealed that noon, especially on Mondays, Wednesdays, and Fridays, sees peak crime incidents. Fridays stand out as the most common day for crimes. Crime rates slow down after midnight. Crime types show varied peak periods; for instance, theft is common during the day, burglary at night, and assaults occur throughout the day. These insights aid in deploying targeted crime prevention strategies and optimizing police resources based on peak times and specific crime types.
 
@@ -42,16 +36,12 @@ From the heatmap above, it was revealed that noon, especially on Mondays, Wednes
 Understanding the victim demographics (age, gender, and race) can help identify vulnerable communities that may require increased police protection. 
 
 #### Age Group
-![Victim Age Group]({{ site.baseurl }}/figure/ASAR_Victim_Age_Group_Distribution.png)
-
-![LA Population Age Group]({{ site.baseurl }}/figure/ASAR_LA_Population_Age_Group.png)
+![Victim Age Group]({{ site.baseurl }}/figure/ASAR_Victim_Age_Group_Distribution.png)   ![LA Population Age Group]({{ site.baseurl }}/figure/ASAR_LA_Population_Age_Group.png)
 
 Most victims of crime in Los Angeles fall within the 20-29 and 30-39 age groups, this result is not surprising as it matches the LA census data.
 
 #### Gender
-![Victim Gender]({{ site.baseurl }}/figure/ASAR_Victim_Gender.png)
-
-![LA Population Gender]({{ site.baseurl }}/figure/ASAR_LA_Population_Gender.png)
+![Victim Gender]({{ site.baseurl }}/figure/ASAR_Victim_Gender.png)  ![LA Population Gender]({{ site.baseurl }}/figure/ASAR_LA_Population_Gender.png)
 
 There were more crimes committed against male than female or undisclosed gender. 
 NOTES: Victimless crimes are excluded from the analysis.
@@ -67,7 +57,6 @@ Crimes against Hispanics/Latinos/Mexicans were the highest, and this is in line 
 ![Geospatial Mapping]({{ site.baseurl }}/figure/ASAR_Geospatial_Mapping.png)
 
 This serves as a tool to identify crime hot spots within the city where the users especially LAPD, can use zoom into different areas, filter by date (month, year) and also select to focus on certain crime types (eg. burglary, rape etc.).
-
 
 ## Inferential Statistics
 This inferential statistics analysis aims to determine if there are significant differences in crime rates between 2020 and 2021, identify demographic factors associated with crime victimization, and explore relationships between crime categories and demographic variables in Los Angeles.
@@ -86,7 +75,6 @@ Based on the test results, the p-value was higher than the significance level of
 Our Shiny App design methodology allows users to update the reactive inputs, filter the data for hypothesis tests, and tweak test parameters such as Confidence Level, Sample Size, and Comparison Direction ('Less', 'Greater', 'two.sided').
 
 Following the hypothesis testing, we also conducted confidence interval analysis on the daily average crime incidents in 2020 versus 2021. 
-
 
 At a 95% confidence level, the confidence interval for daily average crime rates in 2020 ranged from 516 to 556, while in 2021, it increased to 542 to 568.By knowing this range, the LAPD can better predict daily crime rates and allocate resources accordingly, ensuring they have sufficient personnel and strategies in place to address the expected volume of incidents.
 
@@ -107,7 +95,6 @@ The p-value was less than 0.05, leading us to reject the null hypothesis and con
 ![ANOVA_Shiny]({{ site.baseurl }}/figure/ASAR_ANOVA_Shiny.png)
 
 Our Shiny app empowers users to filter data and conduct ANOVA tests on monthly crime rates across various demographic variables, including Gender, Crime Code, Race, and Area Name. Users can adjust sample sizes and observe results in real time, facilitating detailed analyses and informed decision-making for crime prevention strategies in Los Angeles.
-
 
 ### Association between Key Demographic Variables
 We conducted a chi-squared test within Shiny Crime LA to identify potentially significant associations between the key demographic variables. Specifically, we compared Crime Code Category against three other demographic variables: Race, Area Name, and Gender. This analysis allows users to infer associations both across the entire dataset and within granular sub-categories.

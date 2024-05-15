@@ -6,17 +6,16 @@ layout: home
 ---
 
 <br>
-<p style="text-align: center;"><span style="font-size: 24px;">Welcome to Widya Tantiya Yutika's homepage! </span> </p>
+<p style="text-align: center;"><span style="font-size: 24px;">Welcome to Widya Tantiya Yutika's Data Analytics Hub! </span> </p>
 <br>
-<p style="text-align: center;">I am an aspiring data analyst with a passion for extracting insights from complex datasets.
-Let's explore my journey into the world of data analysis and its applications.</p>
+<p style="text-align: center;">Welcome to my corner of the web! I'm Widya, an aspiring data analyst with a keen interest in exploring the depths of data to drive meaningful insights and decisions. Join me on my journey as I delve into various data analytics projects and applications.</p>
 <br>
 
 --------------------------------------------------------------------------------------------------------------------
 <br>
 Below are the list of my data analytics projects:
 
-1. Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied Statistical Analysis with R
+1. Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied Statistical Analysis with R 
 
 2. Singapore's Water Needs - Spreadsheet Modeling for Decision Making
 

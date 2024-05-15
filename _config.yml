@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: WIDYA YUTIKA
+# title: WIDYA YUTIKA
+Feel free to contact me for any question!
 email: widyayutika@gmail.com
 #description:
-#  Feel free to contact me for any question at widya.yutika@gmail.com
 github_username:  widyayutika
 linkedin_username: widyayutika
 
@@ -33,7 +33,7 @@ plugins:
 header_pages:
   - index.markdown
   - about.markdown
-  - portfolio.markdown
+#  - portfolio.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
