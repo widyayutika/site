@@ -31,6 +31,8 @@ The dataset utilized for this analysis is sourced from the Los Angeles Police De
 ## Descriptive Statistics
 Utilizing R Shiny interactive platform, we delve into the dataset to explore deeper into the data and uncover interesting patterns (i.e. Crime Occurrence, Victim Demographic, and Geospatial Mapping)
 
+![Widya](../figure/Photo_Widya_Tantiya_Yutika.jpg){:width="40%"}
+
 ### Crime Occurrence
 ![Crime Occurrence](../figure/ASAR_Crime_Occurrence.png){:width="40%"}
 From the heatmap above, it was revealed that noon, especially on Mondays, Wednesdays, and Fridays, sees peak crime incidents. Fridays stand out as the most common day for crimes. Crime rates slow down after midnight. Crime types show varied peak periods; for instance, theft is common during the day, burglary at night, and assaults occur throughout the day. These insights aid in deploying targeted crime prevention strategies and optimizing police resources based on peak times and specific crime types.
