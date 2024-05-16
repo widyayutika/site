@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Recommendation System for Retail Product - Data Science for Business"
-date:   2024-05-15 11:30:00 +0800
+date:   2023-04-30 08:00:00 +0800
+author: WY
 categories: jekyll update
 ---
 
@@ -91,7 +92,7 @@ Similarly, the second_item() function proposes subsequent items based on a custo
 Additionally, we introduced a recommender function aimed at enhancing the customer experience. Upon inputting their customer ID, the method determines the user's customer group based on their transaction history. If the user lacks prior purchases, the program notifies them that no recommendations are available. However, for returning customers, the system utilizes market basket analysis to propose items for their cart. By generating potential item combinations and aligning with the customer group's purchasing tendencies, we optimize the cart's contents while introducing additional items tailored to their preferences.
 
 Please refer to the comprehensive analysis provided in the Jupyter notebook available on our GitHub repository. You can access the detailed findings and methodologies with below link. 
-<p><a href="https://raw.githubusercontent.com/widyayutika/Recommendation-System-for-Retail-Product/main/Project_Group8_final.ipynb">Project Analysis - Jupyter Notebook</a></p>
+<p><a href="https://github.com/widyayutika/Recommendation-System-for-Retail-Product/blob/main/Project_Group8_final.ipynb">Project Analysis - Jupyter Notebook</a></p>
 
 ## Limitation and Data Governance
 Bias must be addressed to ensure the accuracy and fairness of recommendations, as content, algorithmic, and user biases can impact user trust and engagement, potentially reducing revenue.

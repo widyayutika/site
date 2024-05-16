@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied Statistics Analysis with R"
-date:   2024-05-15 10:30:00 +0800
+date:   2022-04-30 08:00:00 +0800
+author: WY
 categories: jekyll update
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Predicticting Movie Success"
-date:   2024-05-15 15:30:00 +0800
+title:  "Swipe Right on Data: Decoding Love Trends - Text Analytics"
+date:   2024-04-30 08:00:00 +0800
+author: WY
 categories: jekyll update
 ---
 
