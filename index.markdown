@@ -15,22 +15,28 @@ layout: home
 <br>
 Below are the list of my data analytics projects:
 
-1. Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied Statistical Analysis with R 
+1. Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied Statistical Analysis with R | Jan - Apr 2022
 
-2. Singapore's Water Needs - Spreadsheet Modeling for Decision Making
+2. Singapore's Water Needs - Spreadsheet Modeling for Decision Making | Apr - July 2022
 
-3. A Socialogical Approach on Cryptocurrencies - Social Analytics 
+3. A Socialogical Approach on Cryptocurrencies - Social Analytics | Apr - July 2022
 
-4. Leveraging Data Science for Growth: H&M - Data Science for Business
+4. Leveraging Data Science for Growth: H&M - Data Science for Business | Jan - Apr 2023
 
-5. Predicting Movie Success - Applied Machine Learning
+5. Predicting Movie Success - Applied Machine Learning | Apr - July 2023
 
-6. Determinants of Health Insurance Usage in Kenya - Data Analytics Lab
+6. Determinants of Health Insurance Usage in Kenya - Data Analytics Lab | Apr - July 2023
 
-7. ED Triage Prediction Models - Applied Healthcare Analytics
+7. ED Triage Prediction Models - Applied Healthcare Analytics | July - Aug 2023
 
-8. AVEDA Customer Analytics - Customer Analytics
+8. Revitalizing Growth: Transforming Strategies for a Leading Haircare Company - Customer Analytics | Aug - Nov 2023
 
-9. Machine Learning Techniques for Detecting Financial Crimes - Cybersecurity 
+9. Machine Learning Techniques for Detecting Financial Crimes - Cybersecurity | Aug - Nov 2023 
 
-10. Geospatial Analytics (Creating website with R)
+10. Geospatial Analytics (Creating website with R) | Nov - Dec 2023
+
+11. Swipe Right on Data: Decoding Love Trends - Text Analytics | Jan - Apr 2024
+
+12. Revolutionizing Medical Imaging Design Project - Big Data | Jan - Apr 2024
+
+Notes: While the projects have been completed, some articles detailing them have not yet been posted.
