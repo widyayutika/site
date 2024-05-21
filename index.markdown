@@ -15,28 +15,29 @@ layout: home
 <br>
 Below are the list of my data analytics projects:
 
-1. Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied Statistical Analysis with R | Jan - Apr 2022
+1. Swipe Right on Data: Decoding Love Trends - Text Analytics | Jan - Apr 2024
 
-2. Singapore's Water Needs - Spreadsheet Modeling for Decision Making | Apr - July 2022
+2. Revolutionizing Medical Imaging Design Project - Big Data | Jan - Apr 2024
 
-3. A Socialogical Approach on Cryptocurrencies - Social Analytics | Apr - July 2022
+3. Geospatial Analytics (Creating website with R) | Nov - Dec 2023
 
-4. Leveraging Data Science for Growth: H&M - Data Science for Business | Jan - Apr 2023
+4. Revitalizing Growth: Transforming Strategies for a Leading Haircare Company - Customer Analytics | Aug - Nov 2023
 
-5. Predicting Movie Success - Applied Machine Learning | Apr - July 2023
+5. Machine Learning Techniques for Detecting Financial Crimes - Cybersecurity | Aug - Nov 2023 
 
-6. Determinants of Health Insurance Usage in Kenya - Data Analytics Lab | Apr - July 2023
+6. ED Triage Prediction Models - Applied Healthcare Analytics | July - Aug 2023
 
-7. ED Triage Prediction Models - Applied Healthcare Analytics | July - Aug 2023
+7. Predicting Movie Success - Applied Machine Learning | Apr - July 2023
 
-8. Revitalizing Growth: Transforming Strategies for a Leading Haircare Company - Customer Analytics | Aug - Nov 2023
+8. Determinants of Health Insurance Usage in Kenya - Data Analytics Lab | Apr - July 2023
 
-9. Machine Learning Techniques for Detecting Financial Crimes - Cybersecurity | Aug - Nov 2023 
+9. Leveraging Data Science for Growth: H&M - Data Science for Business | Jan - Apr 2023
 
-10. Geospatial Analytics (Creating website with R) | Nov - Dec 2023
+10. A Sociological Approach on Cryptocurrencies - Social Analytics | Apr - July 2022
 
-11. Swipe Right on Data: Decoding Love Trends - Text Analytics | Jan - Apr 2024
+11. Singapore's Water Needs - Spreadsheet Modeling for Decision Making | Apr - July 2022
 
-12. Revolutionizing Medical Imaging Design Project - Big Data | Jan - Apr 2024
+12. Statistical Insight and Analysis on Los Angeles Crimes Rates - Applied Statistical Analysis with R | Jan - Apr 2022
+
 
 Notes: While the projects have been completed, some articles detailing them have not yet been posted.
